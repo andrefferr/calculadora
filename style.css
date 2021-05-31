@@ -1,0 +1,384 @@
+body {
+
+
+position: relative;
+width: 718.5px;
+height: 527.5px;
+
+background-color: black;
+font-family: Arial;
+}
+
+.calculadora {
+
+
+position: absolute;
+width: 426.5px;
+height: 475px;
+left: 150px;
+top: 33.5px;
+
+background: #FFFFFF;
+border-radius: 20px;
+}
+button {
+    font-size: 23px;
+  font-family: Arial; 
+border: none; 
+}
+
+.visor{
+
+
+position: absolute;
+width: 362px;
+height: 63px;
+left: 177px;
+top: 60px;
+
+background: #ECECEC;
+border-radius: 30px;
+ font-family: Arial;
+  
+  
+}
+.visor input {
+
+text-align: end;
+position: absolute;
+width: 302px;
+height: 43px;
+margin-left: 30px;
+margin-top: 0px;
+ font-size: 30px; 
+  border: none;
+  background: none;
+}
+
+.ac {
+position: absolute;
+width: 75px;
+height: 50px;
+left: 177.5px;
+top: 143.5px;
+
+background: #0093C1;
+border-radius: 20px;
+  
+  
+  
+}
+
+.voltar {
+  
+position: absolute;
+width: 170.5px;
+height: 50px;
+left: 273px;
+top: 143.5px;
+
+background: #0093C1;
+border-radius: 20px;
+}
+.centraliza3 {
+  
+font-size: 22px; 
+  
+margin-left: -15px;  
+
+}
+
+.botoesVermelhos {
+
+  
+  
+}
+
+.divisao {
+  
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 464px;
+top: 143.5px;
+
+background: #FF0000;
+border-radius: 20px;
+  font-size: 40px;
+}
+
+.vezes {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 464px;
+top: 214px;
+
+background: #FF0000;
+border-radius: 20px;
+  font-size: 40px;
+  
+}
+.centraliza {
+  margin-left: -11px;
+  
+  
+}
+.centralizaMenos {
+ margin-left: -5px; 
+}
+.menos {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 464px;
+top: 284.5px;
+
+background: #FF0000;
+border-radius: 20px;
+    font-size: 40px;
+}
+
+.mais {
+  
+position: absolute;
+width: 75px;
+height: 50px;
+left: 464px;
+top: 355px;
+
+background: #FF0000;
+border-radius: 20px;  
+    font-size: 40px;
+}
+
+.igual {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 464px;
+top: 425.5px;
+
+background: #FF0000;
+border-radius: 20px;
+    font-size: 40px;
+}
+.sete {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 177.5px;
+top: 214px;
+
+background: #B3B3B3;
+border-radius: 50px;
+}
+
+.oito {
+  
+position: absolute;
+width: 75px;
+height: 50px;
+left: 273px;
+top: 214px;
+
+background: #B3B3B3;
+border-radius: 50px;
+}
+
+.nove {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 368.5px;
+top: 214px;
+
+background: #B3B3B3;
+border-radius: 50px;
+}
+
+.quatro {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 177.5px;
+top: 284.5px;
+
+background: #B3B3B3;
+border-radius: 50px;
+}
+
+.cinco {
+  position: absolute;
+width: 75px;
+height: 50px;
+left: 273px;
+top: 284.5px;
+
+background: #B3B3B3;
+border-radius: 50px;
+}
+
+.seis {
+
+position: absolute;
+width: 75px;
+height: 50px;
+left: 368.5px;
+top: 284.5px;
+
+background: #B3B3B3;
+border-radius: 50px;  
+}
+
+.um {
+
+position: absolute;
+width: 75px;
+height: 50px;
+left: 177.5px;
+top: 355px;
+
+background: #B3B3B3;
+border-radius: 50px;  
+}
+
+.dois {
+position: absolute;
+width: 75px;
+height: 50px;
+left: 273px;
+top: 355px;
+
+background: #B3B3B3;
+border-radius: 50px;  
+}
+
+.tres {
+ position: absolute;
+width: 75px;
+height: 50px;
+left: 368.5px;
+top: 355px;
+
+background: #B3B3B3;
+border-radius: 50px; 
+}
+
+.zero {
+ position: absolute;
+width: 170.5px;
+height: 50px;
+left: 177px;
+top: 426px;
+
+background: #B3B3B3;
+border-radius: 50px; 
+}
+
+.virgula {
+position: absolute;
+width: 75px;
+height: 50px;
+left: 368.5px;
+top: 425.5px;
+
+background: #B3B3B3;
+border-radius: 50px;  
+}
+.centraliza2 {
+  
+  
+}
+
+.raizQuadradaCam {
+  
+  position: absolute;
+width: 170px;
+height: 600px;
+left: 600px;
+top: 33.5px;
+
+background: #FFFFFF;
+border-radius: 20px;
+  
+  
+}
+.imagemRaiz {
+  width: 50px;
+  height: 45px;
+  margin-left: 60px;
+  
+}
+.raizQuadrada {
+position: absolute;
+width: 75px;
+height: 50px;
+margin-left: -100px;
+margin-top: 260px;
+
+background: #0093C1;
+border-radius: 20px;
+  
+}
+.limparRaiz {
+  position: absolute;
+width: 75px;
+height: 50px;
+margin-left: -20px;
+margin-top: 260px;
+font-size: 16px;
+background: #FF0000;
+border-radius: 20px;
+  
+}
+.inputRaiz {
+  text-align: center;
+position: absolute;
+width: 120px;
+height: 150px;
+margin-left: 15px;
+margin-top: 20px;
+ font-size: 20px; 
+border: none;
+background-color: #ECECEC;
+  border-radius: 20px;
+}
+.raizQuadradaCam h2 {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 25px;
+  
+}
+.raizResultado {
+ position: absolute;
+  margin-top: 320px;
+  margin-left: 10px;
+
+  width: 150px;
+  height: 90px;
+   
+  
+  background-color:  #0093C1;
+  border: none;
+  border-radius:20px;
+}
+.resultadoDesign {
+ text-align: center;  
+    font-size: 40px;
+  margin-top: 20px;
+  color: #c2c2c2;
+  width: 150px;
+  height: 90px;
+}
+.addCalc {
+    position: absolute;
+width: 150px;
+height: 100px;
+left: 10px;
+top: 475.5px;
+text-align: center;
+background: #00AF00;
+border-radius: 20px;
+    font-size: 22px;
+}

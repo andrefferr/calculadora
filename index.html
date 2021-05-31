@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora 2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  
+<meta name="viewport" content="width=device-width, initial-scale=0.8">
+<div class= "calculadora">
+  
+</div>
+<div>
+ <div class="visor" id="visor">
+
+     <form name='form'> 
+                    <input class="textview" id="data1" name='textview' >
+  
+                </form>      
+   </div>
+</div>
+<section class="botoesAzuis">
+  <button type="button" onclick="c()" value='C' class="ac" id="removerConteudo">AC</button>
+ 
+
+
+  <button class="voltar" type="button" onclick="back()" value="delete"><div class="centraliza3">delete</div></button>
+
+
+  </section>
+  <section class="botoesVermelhos">
+
+<button type="button" onclick="insert('/')" value= "/" class="divisao"><div class="centraliza">÷</div></button>  
+    
+       <button type="button" onclick="insert('*')" value="*" class="vezes"><div class="centraliza">×</div></button> 
+    
+    <button type="button" onclick="insert('-')" value="-" class="menos"><div class="centralizaMenos">-</div></button>  
+    
+    <button type="button" onclick="insert('+')" value="+" class="mais"><div class="centraliza">+</div></button>  
+    
+    <button type="button" onclick="equal()" value="=" class="igual" id="removerConteudo2" > <div class="centraliza">=</div></button>  
+  </section>
+  
+  
+  <section class="numeros">
+    
+  <button type="button" onclick="insert(7)" value="7" class="sete"><div class="centraliza2">7</div></button>  
+    
+    <button type="button" onclick="insert(8)" value="8" class="oito"><div class="centraliza2">8</div></button>  
+    
+    <button type="button" onclick="insert(9)" value="9" class="nove"><div class="centraliza2">9</div></button>  
+    
+    <button type="button" onclick="insert(4)" value="4" class="quatro"><div class="centraliza2">4</div></button>  
+    
+    <button type="button" onclick="insert(5)" value="5" class="cinco"><div class="centraliza2">5</div></button>  
+    
+    <button type="button" onclick="insert(6)" value="6" class="seis"><div class="centraliza2">6</div></button>  
+    
+    <button type="button" onclick="insert(1)" value="1" class="um"><div class="centraliza2">1</div></button>  
+    
+    <button type="button" onclick="insert(2)" value="2" class="dois"><div class="centraliza2">2</div></button>  
+    
+    <button type="button" onclick="insert(3)" value="3" class="tres"><div class="centraliza2">3</div></button>  
+    
+    <button type="button" onclick="insert(0)" value="0" id='n0' class="zero">0</button>  
+    
+    <button type="button" onclick="insert('.')" value="." class="virgula" id='n0'><div class="centraliza2">,</div></button>  
+    </section>
+  <section class="raizQuadradaCam" id="raiz">
+    <img src="https://image.flaticon.com/icons/png/512/32/32538.png" class="imagemRaiz">
+     <button class="raizQuadrada" type="button" onclick="insert2()" value="Math.sqrt(num)" id="raiz">ir</button>
+    <button class="limparRaiz" type="button" onclick="limpar1()" value="clear" id="limparRaiz">Limpar</button>
+    <form>
+    <input type="textview" class="inputRaiz" id="raizData" placeholder='Digite aqui'>   
+      <h2>Resultado:</h2>
+      <div class="raizResultado">
+      <h1 class="resultadoDesign" name='textview2' id= "raizResultado" ></h1>
+      </div>
+      <button class="addCalc" type="button" onclick="insert3()" value="resolveRaiz" id="raiz">Adicionar à calculadora</button>
+      </form>
+    </section>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
