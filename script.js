@@ -1,3 +1,4 @@
+
 function insert(num){
     document.form.textview.value = document.form.textview.value + num;
 }
@@ -44,3 +45,52 @@ $("#limparRaiz").click(function(){
 
 
  }
+
+function insertPorCento() {
+  
+   var porcentagemNumDados = document.querySelector('#porcentoDataNum')
+ var porcentagemDadosNumber = parseFloat(porcentagemNumDados.value)
+  
+    var porcentagemDados = document.querySelector('#porcentoData')
+ var porcentagemDadosValue = parseFloat(porcentagemDados.value)
+  
+ var resolvePorcentagemDadosValue = porcentagemDadosValue / 100
+ 
+
+ var selectOutput = document.querySelector('#porcentoResultado')
+ 
+  var resolvePorcentagem = porcentagemDadosNumber * resolvePorcentagemDadosValue
+
+  
+selectOutput.innerHTML = selectOutput.innerHTML + resolvePorcentagem
+  
+  
+}           
+          
+function limparPorcento() {
+  
+  $("#limparPorcento").click(function(){
+	$('#porcentoResultado').empty();
+});
+
+}
+
+function insertCalcPorc() {
+     var porcentagemNumDados = document.querySelector('#porcentoDataNum')
+ var porcentagemDadosNumber = parseFloat(porcentagemNumDados.value)
+  
+    var porcentagemDados = document.querySelector('#porcentoData')
+ var porcentagemDadosValue = parseFloat(porcentagemDados.value)
+  
+ var resolvePorcentagemDadosValue = porcentagemDadosValue / 100
+ 
+
+ var selectOutput = document.querySelector('#porcentoResultado')
+ 
+  var resolvePorcentagem = porcentagemDadosNumber * resolvePorcentagemDadosValue
+  
+  
+          document.form.textview.value = document.form.textview.value + resolvePorcentagem;
+  
+  
+}
