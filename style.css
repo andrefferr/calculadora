@@ -1,3 +1,4 @@
+
 body {
 
 
@@ -381,4 +382,183 @@ text-align: center;
 background: #00AF00;
 border-radius: 20px;
     font-size: 22px;
+}
+
+.porcentagemSection {
+  position: relative;
+width: 426.5px;
+height: 200px;
+
+background: #FFFFFF;
+border-radius: 30px;
+  left: 150px;
+  top: 550px
+  
+}
+
+.simboloPorc {
+  
+  position: absolute;
+
+left: 10px;
+top: 25px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 47px;
+text-align: center;
+
+color: #000000;
+  
+  
+}
+
+.irPorcento {
+  position: absolute;
+width: 87px;
+height: 44px;
+left: 198px;
+top: 18px;
+
+background: #00868E;
+border-radius: 20px;
+  
+  
+}
+
+.limparPorcento {
+  
+  position: absolute;
+width: 87px;
+height: 44px;
+left: 198px;
+top: 86px;
+
+background: #ED0000;
+border-radius: 20px;
+  font-size: 16px;
+  
+}
+
+.inputNumPorc {
+  
+  
+position: absolute;
+width: 128px;
+height: 50px;
+left: 43px;
+top: 12px;
+background: #ECECEC;  
+  text-align: center;
+ font-size: 13px; 
+border: none;
+  border-radius: 20px;
+  
+}
+
+.inputPorc {
+  
+  position: absolute;
+width: 128px;
+height: 50px;
+left: 43px;
+top: 79px;
+border: none;
+  font-size: 13px;
+background: #ECECEC;
+border-radius: 20px;
+ text-align: center; 
+  
+}
+
+.inputNumPorc::-webkit-input-placeholder {
+  
+ opacity: 0.65; 
+  color: black;
+  
+}
+
+.inputPorc::-webkit-input-placeholder {
+  
+opacity: 0.65; 
+  color: black;
+  
+}
+.porcentoText {
+  
+    position: absolute;
+left: 151px;
+top: 89px;
+border: none;
+  font-size: 13px;
+ text-align: center; 
+  opacity: 0.65; 
+  color: black;
+  
+}
+.resultadoText {
+  
+  
+position: absolute;
+width: 143px;
+height: 42px;
+left: 283px;
+top: 5px;
+
+
+font-size: 20px;
+
+text-align: center;
+
+color: #000000;
+
+  
+}
+
+.PorcentoResultado {
+  
+  
+  
+position: absolute;
+width: 122px;
+height: 76px;
+left: 293px;
+top: 54px;
+
+background: #FAB400;
+border-radius: 20px;
+}
+
+.porcentoDesign {
+  
+  
+position: absolute;
+width: 122px;
+height: 55px;
+
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+ color: #ea3323;
+  
+  
+}
+
+.addCalcPorc {
+  
+  position: absolute;
+width: 391px;
+height: 46px;
+left: 20px;
+top: 146px;
+
+background: #0085FF;
+border-radius: 20px;
+  
+  
 }
