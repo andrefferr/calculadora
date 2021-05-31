@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Calculadora 2</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   
@@ -77,16 +67,32 @@
     <button class="limparRaiz" type="button" onclick="limpar1()" value="clear" id="limparRaiz">Limpar</button>
     <form>
     <input type="textview" class="inputRaiz" id="raizData" placeholder='Digite aqui'>   
+            </form>
       <h2>Resultado:</h2>
       <div class="raizResultado">
       <h1 class="resultadoDesign" name='textview2' id= "raizResultado" ></h1>
       </div>
       <button class="addCalc" type="button" onclick="insert3()" value="resolveRaiz" id="raiz">Adicionar à calculadora</button>
-      </form>
-    </section>
-</body>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
-</body>
-</html>
+    </section>
+<section class="porcentagemSection" id="porcentagemSection">
+
+  <h1 class="simboloPorc">&#37;</h1>
+  <button class="irPorcento" type="button" onclick="insertPorCento()" id="irPorcento">ir</button>
+    <button class="limparPorcento" type="button" onclick="limparPorcento()" value="clear" id="limparPorcento">Limpar</button>
+    <form>
+    <input type="textview" class="inputNumPorc" id="porcentoDataNum" name="textview2" placeholder='Digite o número aqui'>  
+      
+    <input type="textview" class="inputPorc" id="porcentoData" placeholder='Digite quantos &#37;'>    
+         </form>
+      <h2 class="porcentoText">&#37;</h2>
+      
+      <h2 class="resultadoText">Resultado:</h2>
+      <div class="PorcentoResultado">
+      <h1 class="porcentoDesign" id= "porcentoResultado" ></h1>
+      </div>
+      <button class="addCalcPorc" type="button" onclick="insertCalcPorc()"  id="addPorcento">Adicionar à calculadora</button>
+   
+  
+  </section>
+</body> 
