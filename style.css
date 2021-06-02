@@ -4,9 +4,9 @@ body {
 
 position: relative;
 width: 718.5px;
-height: 527.5px;
+height: 1500.5px;
 
-background-color: black;
+background-color: #adadad;
 font-family: Arial;
 }
 
@@ -365,12 +365,13 @@ background-color: #ECECEC;
   border-radius:20px;
 }
 .resultadoDesign {
+  position: absolute;
  text-align: center;  
     font-size: 40px;
   margin-top: 20px;
-  color: #c2c2c2;
   width: 150px;
   height: 90px;
+  left: 20px;
 }
 .addCalc {
     position: absolute;
@@ -392,7 +393,7 @@ height: 200px;
 background: #FFFFFF;
 border-radius: 30px;
   left: 150px;
-  top: 550px
+  top: 570px
   
 }
 
@@ -537,15 +538,11 @@ position: absolute;
 width: 122px;
 height: 55px;
 
-
-
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
+font-size: 30px;
 line-height: 23px;
 text-align: center;
- color: #ea3323;
-  
+  left: 20px;
+ 
   
 }
 
@@ -560,5 +557,199 @@ top: 146px;
 background: #0085FF;
 border-radius: 20px;
   
+  
+}
+
+.potenciaSection {  
+    position: relative;
+  width: 621px;
+  height: 230px;
+  background-color: white;
+
+background: #FFFFFF;
+border-radius: 30px;
+  left: 150px;
+  top: 620px
+}
+
+.simboloPoten {
+  position: absolute;
+width: 41px;
+height: 56px;
+left: 11px;
+top: 18px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #000000;
+
+  
+  
+}
+
+.irPoten {
+  
+  position: absolute;
+width: 95px;
+height: 48px;
+left: 310px;
+top: 23px;
+
+background: #0056D7;
+border-radius: 20px;
+  
+  
+  
+}
+.limparPoten {
+  position: absolute;
+width: 95px;
+height: 48px;
+left: 310px;
+top: 93px;
+font-size: 18px;
+background: #ED0000;
+border-radius: 20px;
+  text-align: center;
+  
+}
+
+.inputNumPoten {
+  
+  position: absolute;
+width: 154px;
+height: 60px;
+left: 121px;
+top: 16px;
+
+background: #ECECEC;
+border-radius: 17px;
+  border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.inputNumPotenElev {
+  
+  position: absolute;
+width: 154px;
+height: 60px;
+left: 121px;
+top: 88px;
+
+background: #ECECEC;
+border-radius: 17px;
+  border: none;
+    text-align: center;
+    font-size: 15px;
+}
+.inputNumPoten::-webkit-input-placeholder {
+  
+ opacity: 0.65; 
+  color: black;
+
+}
+
+.inputNumPotenElev::-webkit-input-placeholder {
+  
+opacity: 0.65; 
+  color: black;
+
+}
+
+.xText {
+  position: absolute;
+width: 49px;
+height: 42px;
+left: 63px;
+top: 0px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+  
+}
+
+.yText {
+  
+  position: absolute;
+width: 49px;
+height: 42px;
+left: 63px;
+top: 71px;
+
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+
+  
+}
+
+.resultadoTextPoten {
+  position: absolute;
+width: 134px;
+height: 53px;
+left: 445px;
+top: 6px;
+
+
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+  
+}
+
+.PotenResultado {
+  
+  position: absolute;
+width: 177px;
+height: 90px;
+left: 424px;
+top: 68px;
+
+background: #00868E;
+border-radius: 20px;
+  
+}
+
+.potenDesign {
+  
+  text-align: center;
+  position: absolute;
+width: 122px;
+height: 55px;
+left: 10px;
+font-size: 34px;
+text-align: center;
+  color: black;
+  
+}
+
+.addCalcPoten {
+  
+position: absolute;
+width: 558px;
+height: 49px;
+left: 31px;
+top: 174px;
+
+background: #FF9900;
+border-radius: 30px;  
   
 }
