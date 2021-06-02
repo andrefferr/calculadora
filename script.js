@@ -94,3 +94,53 @@ function insertCalcPorc() {
   
   
 }
+
+function insertPoten() {
+  
+    
+   var potenNumDados = document.querySelector('#potenDataNum')
+ var potenDadosNumber = parseFloat(potenNumDados.value)
+  
+    var potenDados = document.querySelector('#potenData')
+ var potenDadosValue = parseFloat(potenDados.value)
+  
+
+ 
+
+ var selectOutput = document.querySelector('#potenResultado')
+ 
+  var resolvePoten = Math.pow(potenDadosNumber, potenDadosValue)
+
+  
+selectOutput.innerHTML = selectOutput.innerHTML + resolvePoten
+  
+  
+}
+
+function limparPoten() {
+  
+  
+    $("#limparPoten").click(function(){
+	$('#potenResultado').empty();
+});
+  
+}
+
+function insertCalcPoten() {
+  
+     var potenNumDados = document.querySelector('#potenDataNum')
+ var potenDadosNumber = parseFloat(potenNumDados.value)
+  
+    var potenDados = document.querySelector('#potenData')
+ var potenDadosValue = parseFloat(potenDados.value)
+  
+
+ 
+
+ var selectOutput = document.querySelector('#potenResultado')
+ 
+  var resolvePoten = Math.pow(potenDadosNumber, potenDadosValue)
+  
+            document.form.textview.value = document.form.textview.value + resolvePoten;
+  
+}
